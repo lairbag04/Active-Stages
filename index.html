@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+  <main>
+    <section id="card-1"  >
+    <div id="icon-star">
+      <img id="image" src="/images/icon-star.svg" alt=""> 
+    </div>
+    <h1 id="titlecard-1">How did we do?</h1>
+    <p id="subtitle-1">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+
+    <div class="feedback">
+      <button data-mensage ="You selected out 1 of 5" class="buttons" id="button1">1</button>
+      <button data-mensage ="You selected out 2 of 5" class="buttons" id="button2">2</button> 
+      <button data-mensage ="You selected out 3 of 5" class="buttons" id="button3">3</button>
+      <button data-mensage ="You selected out 4 of 5" class="buttons" id="button4">4</button>
+      <button data-mensage ="You selected out 5 of 5" class="buttons" id="button5">5</button>
+    </div>
+    <div class="submitcard">
+    <button onclick="loadCard()" id="submit">Submit</button>
+    </div>
+    </section>
+
+    <section id="card-2" style="display: none;" >
+    <div class="tankyouphoto" >
+    <img src="/images/illustration-thank-you.svg" alt=""> 
+    </div>
+    <h1 id="titlecard-2"> You selected out of 5</h1>
+    <p class="pretitle-2">Thank you!</p>
+    <p class="subtitlecard-2">We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+  </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
