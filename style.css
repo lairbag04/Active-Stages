@@ -16,11 +16,13 @@ body {
     font-family: "Poppins", sans-serif;;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -10px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #image {
@@ -59,12 +61,14 @@ main{
     padding: 5%;
     height: 285px;
     border-radius: 15px;
+    font-family: "Poppins", sans-serif;;
 }
 
 .feedback {
     text-align: center;
     display: flex;
     gap: 18px;
+    font-family: "Poppins", sans-serif;;
 }
  
 .buttons {
@@ -75,6 +79,7 @@ main{
     height: 40px;
     color: hsl(217, 12%, 63%);
     cursor: pointer;
+    font-family: "Poppins", sans-serif;;
 }
 
 .buttons.active {
@@ -99,6 +104,7 @@ main{
     height: 45px;
     background-color: hsl(25, 97%, 53%);
     text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
 }
 
 #submit:hover {
@@ -140,7 +146,7 @@ main{
     color: hsl(217, 12%, 63%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1368px) {
 #card-1 {
     background-color: hsl(213, 19%, 18%);
     margin: 10%;
@@ -153,15 +159,15 @@ main{
 .feedback {
     text-align: center;
     display: flex;
-    gap: 22px;
+    gap: 35px;
 }
 
 .buttons {
     background-color: #313b46;
     border-radius: 30px;
     margin-top: 25px;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
 }
 
 #card-2 {
